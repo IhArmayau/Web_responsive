@@ -1,0 +1,20 @@
+/* Styles for desktop */
+@media (min-width: 1024px) {
+    /* Add your desktop-specific styles here */
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Add your tablet-specific styles here */
+}
+
+/* Styles for phones */
+@media (max-width: 767px) {
+    /* Add your phone-specific styles here */
+}
+
+/* Styles for images */
+img {
+    max-width: 100%; /* Ensures images don't overflow their containers */
+    height: auto; /* Maintains aspect ratio */
+}
